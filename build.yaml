@@ -19,15 +19,15 @@
 #
 ---
 include:
-  - board: nice_nano
+  - board: nice_nano@1.0.0//zmk
     shield: corne_left
     artifact-name: corne_left-nano_v1
-  - board: nice_nano
+  - board: nice_nano@1.0.0//zmk
     shield: corne_right
     artifact-name: corne_right-nano_v1
-  - board: nice_nano_v2
+  - board: nice_nano@2.0.0//zmk
     shield: corne_left nice_view_adapter nice_view
     artifact-name: corne_left-nano_v2-nice_view
-  - board: nice_nano_v2
+  - board: nice_nano@2.0.0//zmk
     shield: corne_right nice_view_adapter nice_view
     artifact-name: corne_right-nano_v2-nice_view
